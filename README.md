@@ -1,4 +1,3 @@
-# csstemplate-red
-CSS Red Template
+# CSS Red Template
 
 Template for building pure css based web site.
