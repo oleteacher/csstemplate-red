@@ -119,8 +119,9 @@ html {
 	outline: 0 !important;
 	background: #f2f2f2 !important;
 	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 1px 3px 0 rgba(0,0,0,0.19) !important;
-	
+	width: 80% !important;
 	border: 0 !important;
+	border-radius: 5px !important;
 	margin: 0 0 15px !important;
 	padding: 15px !important;
 	box-sizing: border-box !important;
@@ -133,7 +134,7 @@ html {
 	background: #00238c !important;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
 	border-radius: 15px !important;
-	
+	width: 95% !important;
 	border: 0 !important;
 	padding: 15px !important;
 	color: #FFFFFF !important;
