@@ -80,16 +80,7 @@ html {
 .menu li:hover {
     background-color: #094201;
 }
-.aside {
-    background-color: #ffffff;
-    padding: 15px;
-    color: #000;
-    text-align: center;
-    font-size: 14px;
-	border-radius: 50px/15px;
-    border: 1px solid #000;
-    box-shadow: 1px 3px 3px rgba(0,0,0,0.12), 1px 3px 2px rgba(0,0,0,0.24);
-}
+
 .footer {
     background-color: #000;
     color: #ffffff;
@@ -121,15 +112,14 @@ html {
 	border-radius: 25px !important;
 	padding-top: 35px !important;
 	padding-bottom: 15px !important;
-	padding-left: 25px !important;
-	padding-right: 25px !important;
+	
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24) !important;
 }
 .qikcrypt-form input {
 	outline: 0 !important;
 	background: #f2f2f2 !important;
 	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 1px 3px 0 rgba(0,0,0,0.19) !important;
-	width: 50% !important;
+	
 	border: 0 !important;
 	margin: 0 0 15px !important;
 	padding: 15px !important;
@@ -143,7 +133,7 @@ html {
 	background: #00238c !important;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
 	border-radius: 15px !important;
-	width: 50% !important;
+	
 	border: 0 !important;
 	padding: 15px !important;
 	color: #FFFFFF !important;
