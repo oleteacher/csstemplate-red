@@ -1,0 +1,163 @@
+	html,
+  body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#content {
+	padding-bottom:100px; /* Height of the footer element */
+}
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.row:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+[class*='col-'] {
+    float: left;
+    padding: 15px;
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+html {
+    font-family: 'Lucida Sans', sans-serif;
+}
+.header {
+    background-color: #000;
+    color: #ffffff;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color :#000;
+    color: #ffffff;
+	border-radius: 10px/5px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.12), 1px 2px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #094201;
+}
+.aside {
+    background-color: #ffffff;
+    padding: 15px;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+	border-radius: 50px/15px;
+    border: 1px solid #000;
+    box-shadow: 1px 3px 3px rgba(0,0,0,0.12), 1px 3px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    width:100%;
+	height:100px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.qikcrypt-page {
+	width: 100% !important;
+	padding: 3% 0 0 !important;
+	margin: auto !important;
+	box-sizing: border-box !important;
+}	
+.qikcenter {
+	text-align: center !important;
+}
+.qikcrypt-form {
+	position: relative !important;
+	z-index: 1 !important;
+	background: #FFFFFF !important;
+	max-width: 100% !important;
+	margin: 0 auto 100px !important;
+	border: 2px solid #111111 !important;
+	border-radius: 25px !important;
+	padding-top: 35px !important;
+	padding-bottom: 15px !important;
+	padding-left: 25px !important;
+	padding-right: 25px !important;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24) !important;
+}
+.qikcrypt-form input {
+	outline: 0 !important;
+	background: #f2f2f2 !important;
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 1px 3px 0 rgba(0,0,0,0.19) !important;
+	width: 50% !important;
+	border: 0 !important;
+	margin: 0 0 15px !important;
+	padding: 15px !important;
+	box-sizing: border-box !important;
+	font-size: 14px !important;
+	text-align: center !important;
+}
+.qikcrypt-form .qikcrypt-decrypt-button {
+	text-transform: uppercase !important;
+	outline: 0 !important;
+	background: #00238c !important;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+	border-radius: 15px !important;
+	width: 50% !important;
+	border: 0 !important;
+	padding: 15px !important;
+	color: #FFFFFF !important;
+	font-size: 14px !important;
+	cursor: pointer !important;
+	text-align: center !important;
+}
+.qikcrypt-form .qikcrypt-decrypt-button:hover, .qikcrypt-form .qikcrypt-decrypt-button:active, .qikcrypt-form .qikcrypt-decrypt-button:focus {
+	background: #006619 !important;
+	border-radius: 15px !important;
+}
+.qikcrypt-html {
+	height: 100%;
+}
+.nounderline {
+	text-decoration: none;
+}
